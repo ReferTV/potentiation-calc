@@ -1,7 +1,8 @@
-print("Wprowadź ilość boków")
-a = input()
-a = int(a)
-wynik = (a-2)*a/2
-suma_kątów = (a-3)*180
-print ("Ilość przekątnych wynosi", wynik)
-print ("Suma wszystkich kątów w tym wielokącie wynosi", suma_kątów)
+print("Wybierz liczbę")
+x = input()
+x = int(x)
+print("Do jakiej potęgi chcesz podnieść liczbę ", x)
+potega = input()
+potega = int(potega)
+wynik = x**potega
+print(wynik)
